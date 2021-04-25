@@ -14,6 +14,10 @@
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
+        <developer>
+            <id>vgabor</id>
+            <name>Veress Gábor</name>
+        </developer>
     </developers>
     <scm>
         <url>https://github.com/jeszy75/jdbi-examples</url>
@@ -28,6 +32,16 @@
         <exec.cleanupDaemonThreads>false</exec.cleanupDaemonThreads>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.15</version>
+        </dependency>
         <dependency>
             <groupId>org.jdbi</groupId>
             <artifactId>jdbi3-core</artifactId>
